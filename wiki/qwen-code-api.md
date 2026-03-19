@@ -75,7 +75,7 @@ See:
      -H "Content-Type: application/json" \
      -H "Authorization: Bearer <qwen-code-api-key>" \
      -d '{"model":"<qwen-model>","messages":[{"role":"user","content":"What is 2+2?"}]}' \
-     | jq .
+     | jq
    ```
 
    Replace the placeholders:

@@ -145,7 +145,7 @@ Path: `~/.qwen/oauth_creds.json`.
    [run in the `VS Code Terminal`](./vs-code.md#run-a-command-in-the-vs-code-terminal):
 
    ```terminal
-   cat ~/.qwen/oauth_creds.json | jq .
+   cat ~/.qwen/oauth_creds.json | jq
    ```
 
    The output should look like this:
